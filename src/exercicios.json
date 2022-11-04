@@ -1,0 +1,68 @@
+[{
+    
+    "nome":"Rosca Direta Halter",
+    "descricao":"Exercício Sentado no banco para fortalecimento dos bíceps",
+    "grupoMuscular":"bíceps",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/biceps/gif-rosca-direta-alter.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvYmljZXBzL2dpZi1yb3NjYS1kaXJldGEtYWx0ZXIuZ2lmIiwiaWF0IjoxNjY0NjYxOTUwLCJleHAiOjE5ODAwMjE5NTB9.mPc2-FC6krmaLDS0GE7C9V2aofWHK4yUt4rz2cbEmjk"
+},
+{
+    
+    "nome":"Rosca Direta com Barra",
+    "descricao":"Exercício em pé com barra W",
+    "grupoMuscular":"bíceps",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/biceps/gif-rosca-direta-barra.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvYmljZXBzL2dpZi1yb3NjYS1kaXJldGEtYmFycmEuZ2lmIiwiaWF0IjoxNjY0NjYxOTY4LCJleHAiOjE5ODAwMjE5Njh9.ufB53D1fTVYSGNZRlwTthozw6awpiC9XTv65bv1B57U"
+},
+
+{
+    
+    "nome":"Puxada de Tríceps",
+    "descricao":"Exercíco em pé no pulley para os tríceps",
+    "grupoMuscular":"tríceps",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/triceps/puxada-de-triceps.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvdHJpY2Vwcy9wdXhhZGEtZGUtdHJpY2Vwcy5naWYiLCJpYXQiOjE2NjU3ODM2MjYsImV4cCI6MTk4MTE0MzYyNn0.-DpAmGR1xO2fKqj9kYVnmpswywBqxwIBlTvSm3oGyYo"
+},
+{
+    
+    "nome":"Agachamento Livre",
+    "descricao":"Exercício ótimo para desenvolver os músculos das pernas. Peça auxílio ao professor da sua academia.",
+    "grupoMuscular":"pernas",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/pernas/agachamento.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGVybmFzL2FnYWNoYW1lbnRvLmdpZiIsImlhdCI6MTY2NTc4MzcwMiwiZXhwIjoxOTgxMTQzNzAyfQ.JcTGTqPLOByUXiP5cws66kRwdjMPgSlocV3HGrLJrYQ"
+},
+{
+    
+    "nome":"Cruxifixo no banco reto",
+    "descricao":"Exercício para peitoral",
+    "grupoMuscular":"peitoral",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/peitoral/crucifixo-no-banco-reto.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGVpdG9yYWwvY3J1Y2lmaXhvLW5vLWJhbmNvLXJldG8uZ2lmIiwiaWF0IjoxNjY1NzgzNzg0LCJleHAiOjE5ODExNDM3ODR9.4vN6bPmMK29RPA6YdeOa5PRrZ4TX64XlHnlQ484BFOs"
+},
+{
+    
+    "nome":"Supino Reto",
+    "descricao":"O exercício mais indicado para dar volume. Faça com a postura correta.",
+    "grupoMuscular":"peitoral",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/peitoral/supino-reto.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvcGVpdG9yYWwvc3VwaW5vLXJldG8uZ2lmIiwiaWF0IjoxNjY1Nzg0MDI4LCJleHAiOjE5ODExNDQwMjh9.9R4M_V_woxr1Ca_HU3_b15LNMyCEWQMygU3IBFUgxmg"
+}
+,
+{
+    
+    "nome":"Elevação lateral",
+    "descricao":"Exercício feito em pé ou sentado no banco, elevando os pesos lateralmente.",
+    "grupoMuscular":"ombros",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/ombros/elevacao-lateral.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvb21icm9zL2VsZXZhY2FvLWxhdGVyYWwuZ2lmIiwiaWF0IjoxNjY1Nzg0MTAyLCJleHAiOjE5ODExNDQxMDJ9.k1zliTIBQd2sAyIoL28yLfj1zXnUWvGxg77OU5wsg84"
+}
+,
+{
+    
+    "nome":"Remada com barra",
+    "descricao":"Exercício com barra reta para costas. Cuidado com a postura correta.",
+    "grupoMuscular":"costas",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/costas/remada-com-barra.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY29zdGFzL3JlbWFkYS1jb20tYmFycmEuZ2lmIiwiaWF0IjoxNjY1Nzg0MTYyLCJleHAiOjE5ODExNDQxNjJ9.p1cE2jbuiXB2XF6od7j8GcitnD99yYKt-Y85h8gLzk8"
+}
+,
+{
+    
+    "nome":"Puxada",
+    "descricao":"Excelente exercício para as costas para ser realizado no aparelho, sentado. Pegada supinada.",
+    "grupoMuscular":"costas",
+    "imgUrl":"https://kwppuvtnshwsbvwcegiu.supabase.co/storage/v1/object/sign/images/costas/puxada-em-polia-alta.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvY29zdGFzL3B1eGFkYS1lbS1wb2xpYS1hbHRhLmdpZiIsImlhdCI6MTY2NTc4NDM1NiwiZXhwIjoxOTgxMTQ0MzU2fQ.oriJUAxjXr0Fb1S3yz4-SHmlt3r0ta287_8Z59pHGMI"
+}
+]
