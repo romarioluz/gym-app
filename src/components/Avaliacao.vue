@@ -113,7 +113,6 @@
   </tbody>
   
 </table>
-<<<<<<< HEAD
 <small v-if="exibirTabela"> Fonte: https://www.programasaudefacil.com.br/calculadora-de-imc</small>
 <br/>
 <button class="mt-6 py-2 px-6 rounded-sm  text-sm
@@ -126,9 +125,6 @@
         border-2 border-transparent hover:border-at-light-green hover:bg-white
         hover:text-at-light-green" @click="exibirTabela = !exibirTabela" v-if="exibirTabela">Esconder Tabela
     </button>
-=======
-<small> Fonte: https://www.programasaudefacil.com.br/calculadora-de-imc</small>
->>>>>>> 6f22c3accffb9edaec58257538ebbdfae60c2022
         
         
     </div>
@@ -146,12 +142,9 @@ export default {
          //create data / vars
     const data = ref([])
     const dataLoaded = ref(null)
-<<<<<<< HEAD
     const exibirTabela = ref(false)
 
 
-=======
->>>>>>> 6f22c3accffb9edaec58257538ebbdfae60c2022
     const dateTime =(valor)=> {
       return moment(valor).format('DD/MM/YYYY');
     }
@@ -168,21 +161,13 @@ export default {
         console.warn(error.message)
       }
     };
-<<<<<<< HEAD
-
-=======
->>>>>>> 6f22c3accffb9edaec58257538ebbdfae60c2022
     
     //run data function
     getData()
    
-<<<<<<< HEAD
 
     return { data, dataLoaded, dateTime, exibirTabela }
 
-=======
-    return { data, dataLoaded, dateTime }
->>>>>>> 6f22c3accffb9edaec58257538ebbdfae60c2022
    },
 }
 </script>
@@ -191,10 +176,6 @@ export default {
 table{
   align-self: center;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 6f22c3accffb9edaec58257538ebbdfae60c2022
 th{
   background-color: #7c3aed;
   font: 1rem;
@@ -209,8 +190,4 @@ td{
 table{
   width: 500px;
 }
-<<<<<<< HEAD
 </style>
-=======
-</style>
->>>>>>> 6f22c3accffb9edaec58257538ebbdfae60c2022
