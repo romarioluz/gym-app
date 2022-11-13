@@ -65,6 +65,7 @@
         rounded-lg shadow-md"
         >
           {{ data.nomeTreino }}
+          {{data.data}}
         </span>
 
         </div>

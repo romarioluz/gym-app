@@ -11,6 +11,9 @@ import Treinos from "../views/Treinos.vue"
 import GerenciaTreino from "../views/GerenciaTreino.vue"
 import PaginaTreino from "../views/PaginaTreino.vue"
 import ExercicioEmExecucao from '../views/ExercicioEmExecucao.vue'
+import Volume from '../views/Volume.vue'
+import HistoricoAvaliacao from '../views/HistoricoAvaliacao.vue'
+import TabelaDeExercicios from '../views/TabelaDeExercicios.vue'
 
 /*
 Configuração do titulo da view no navegador e acesso a rotas com 
@@ -118,6 +121,24 @@ const routes = [
     path:"/exercicio-em-execucao/:exercicioId",
     name: "ExercicioEmExecucao",
     component:ExercicioEmExecucao,  
+   
+  },
+  {
+    path:"/volume",
+    name: "Volume",
+    component:Volume,  
+   
+  },
+  {
+    path:"/historico-avaliacao",
+    name: "HistoricoAvaliacao",
+    component:HistoricoAvaliacao,  
+   
+  },
+  {
+    path:"/tabela-de-exercicios",
+    name: "TabelaDeExercicios",
+    component:TabelaDeExercicios,  
    
   },
 
