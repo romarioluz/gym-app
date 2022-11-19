@@ -79,6 +79,8 @@ export default {
 
         // get current id of route      
       const currentId = route.params.exercicioId;
+      
+      
 
       // Pegar dados da tabela Exercicios
       const getData = async () => {
@@ -138,8 +140,7 @@ export default {
 
         
         
-        return {getData, data, stopwatch, defineComponent, finalizaExercicio, finalizado
-        }
+        return {getData, data, stopwatch, defineComponent, finalizaExercicio, finalizado}
   }
 
 }

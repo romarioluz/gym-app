@@ -22,34 +22,34 @@
       >
         <div v-if="user" class="flex absolute left-2 top-2 gap-x-2">
           <div
-            class="h-7 w-7 rounded-full flex justify-center items-center cursor-pointer
+            class="h-7 w-7 rounded-full bt flex justify-center items-center cursor-pointer
         bg-success shadow-lg"
             @click="editMode"
           >
-            <img class="h-3.5 w-auto" src="../assets/images/pencil-light.png" alt="" />
+            <img class="h-3.5 w-auto" src="../assets/images/pencil-light.png" alt="MODO EDIÇÃO" />
           </div>
          
 
           <div
             @click="deletaTreino"
-            class="h-7 w-7 rounded-full flex justify-center items-center cursor-pointer
+            class="h-7 w-7 rounded-full bt flex justify-center items-center cursor-pointer
         bg-alert shadow-lg"
           >
-          <img class="h-3.5 w-auto" src="../assets/images/trash-light.png" alt="" />
+          <img class="h-3.5 w-auto" src="../assets/images/trash-light.png" alt="DELETAR TREINO" />
           </div>          
           <div
             @click="getData"
-            class="h-7 w-7 rounded-full flex justify-center items-center cursor-pointer
+            class="h-7 w-7 rounded-full bt flex justify-center items-center cursor-pointer
         bg-white shadow-lg"
           >
-          <img class="h-3.5 w-auto"  src="../assets/images/reload.svg" alt="" />
+          <img class="h-3.5 w-auto"  src="../assets/images/reload.svg" alt="RECARREGAR" />
           </div>          
           
           <div   onclick="history.back()"
-              class="h-7 w-7 rounded-full bg-white flex justify-center items-center cursor-pointer shadow-lg"
+              class="h-7 bt w-7 rounded-full bg-white flex justify-center items-center cursor-pointer shadow-lg"
               
             >
-              <img class="h-3.5 w-auto " src="../assets/images/voltar.svg" alt="" />
+              <img class="h-3.5 w-auto" src="../assets/images/voltar.svg" alt="VOLTAR" />
             </div>
         </div>
 
@@ -291,6 +291,11 @@ export default {
     
     font: 18px bold;
   }
+
+  .bt:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
 
 
 </style>

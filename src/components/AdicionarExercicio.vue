@@ -3,13 +3,14 @@
     
         <!-- Lista de exercicios -->
   <div class="flex flex-col">
-                <h1 class="text-center">Lista de Exercícios</h1>
+                <h1 class="text-center">Escolha um exercício abaixo para adicionar ao seu treino</h1>
                 <br/>
                
                     <br/>
                     <!-- LISTA de EXERCICIOS NO TREINO -->
                     <ul >
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-8 rounded-md shadow-md 
+      bg-at-green relative">
                             <li @click="setExercicioMarcado(exercicio)" v-for="(exercicio, index) in listaExerciciosDB" :key="index">
                              {{exercicio.nome}}
                             <img :src="exercicio.imgUrl" alt="">
@@ -21,11 +22,11 @@
         v-if="exercicioMarcado"
         @click="adicionarExercicio"
         type="button"
-        class="py-2 px-6 rounded-sm self-start text-sm text-white
+        class="btn-add animate__backInLeft py-2 px-6 rounded-sm self-start text-sm text-white
         bg-at-light-green duration-200 border-solid border-2 border-transparent
         hover:border-at-light-green hover:bg-white hover:text-at-light-green"
         >
-        Adicionar Exercício
+        Add exercício selecionado
       </button>
              
     </div>
@@ -35,7 +36,7 @@
 </template>
 
 <script>
-
+import 'animate.css'
 import {useRoute} from 'vue-router'
 import store from '../store/index';
 import {computed} from 'vue'
@@ -61,6 +62,7 @@ export default {
           
 
           try {
+            alert(`O exercício "${exercicioMarcado.value.nome}" será adicionado ao seu treino!`)
             const { error } = await supabase
                 .from('Exercicio')
                 .insert([
@@ -88,5 +90,34 @@ export default {
 </script>
 
 <style>
+
+
+.btn-add{
+  
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 9999;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+li{cursor: pointer;}
+
+.btn-add:hover {
+  background-color: #555;
+}
+
+
+.text-center{
+    font: 1.3rem bold;
+    border: 1px black solid;
+}
 
 </style>
