@@ -237,7 +237,7 @@ export default {
             
               for(let i = 0;i<=dadosExercicios.value.length -1;i++){
                 const { error } = await supabase.from('Exercicio').delete().eq('id', dadosExercicios.value[i].idexercicio)
-                
+              
               console.log(error)
               }
               const { error } = await supabase.from('Treino').delete().eq('id', currentId)

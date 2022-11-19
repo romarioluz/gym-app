@@ -1,9 +1,6 @@
 <template>
     <div>
-        <div class="mt-6 py-2 px-6 rounded-sm  text-sm
-      text-blue bg-at-light-green duration-200 border-solid
-      border-2 border-transparent hover:border-at-light-green
-      ">
+        <div class="p-8 flex items-start bg-light-grey rounded-md shadow-lg">
 
       <form @submit.prevent="adicionaTreino">
 
@@ -11,15 +8,15 @@
    <!-- nome exercicio-->
         <div>
                 <label for="workout-name">Nome do Treino: </label>
-                <input class="p-2 text-gray-500 focus:outline-none rounded" type="text" required
+                <input class="mb-1 text-sm text-at-light-green" type="text" required
                 id="workout-name"
                 v-model="nomeDoTreino">
             </div>
             
                 <!-- Lista de exercicios -->
-            <div class="flex flex-col rounded">
-                <label for="workout-name">Exercícios</label>
-                <select required 
+            <div class="flex flex-col">
+                <label for="workout-name" class="mb-1 text-sm text-at-light-green">Exercícios</label>
+                <select class="p-2 text-gray-500 focus:outline-none" required 
                 v-model="exercicioEscolhido"              
                 
                 >
@@ -30,15 +27,15 @@
                 <!-- Exercicios selecionado no select acima-->
                 <br/>
                 <div >
-                    <h1 class="text-white text-center text-xl">{{nomeDoTreino}}</h1>
+                    <h1 class="text-success rounded text-center text-xl">{{nomeDoTreino}}</h1>
                     <br/>
                     <!-- LISTA de EXERCICIOS NO TREINO -->
                     <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                        <li class="items-center text-center" v-for="(exercicio, index) in arrayDeExercicios" :key="index">
+                        <li class="items-center text-center rounded" v-for="(exercicio, index) in arrayDeExercicios" :key="index">
                            <p>{{index +1}}  - {{exercicio.nome}} <span></span></p> 
           
                             <img @click="deletaExercicio(index)" class="h-6 text-center mb-4 h-4 w-auto m-left-5 cursor-pointer"
-                            src="../assets/images/trash-light.png"
+                            src="../assets/images/trash-light-green.png"
                             alt=""
                             />
 
